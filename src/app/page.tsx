@@ -1,13 +1,12 @@
-import Image from "next/image";
-import Hero from "./Components/HeroSection";
-import Navbar from "./Components/Navbar";
-import Tex from "./Components/Tex";
-import Div from "./Components/Div";
-import Get from "./Components/get"; // Fixed casing issue
-import Faq from "./Components/Faq";
-import NewsletterSection from "./Components/NewsletterSection";
-import LocationsSection from "./Components/LocationsSection";
-import Footer from "./Components/Footer";
+import Hero from "@/components/HeroSection";
+import Navbar from "@/components/Navbar";
+import Tex from "@/components/Tex";
+import Div from "@/components/Div";
+import Get from "@/components/get"; // Fixed casing issue
+import Faq from "@/components/Faq";
+import NewsletterSection from "@/components/NewsletterSection";
+import LocationsSection from "@/components/LocationsSection";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
